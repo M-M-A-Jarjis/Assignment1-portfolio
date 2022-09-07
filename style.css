@@ -4,11 +4,12 @@ body {
 }
 
 .h1 {
-    font-size: 50px;
+    font-size: 100px;
 }
 
 section {
     display: flex;
+    padding-bottom: 5%;
 }
 
 .half-width {
@@ -31,6 +32,7 @@ section {
     top: 100px;
     height: 100vh;
     position: centre;
+    color: red;
 }
 
 .top-banner::after {
@@ -41,7 +43,7 @@ section {
     display: block;
     width: 100%;
     height: 100%;
-    background: wheat;
+    background: rgb(18, 17, 15);
     opacity: .7;
     z-index: -1;
 }
@@ -80,4 +82,53 @@ section {
 .new {
     width: 100%;
     padding-left: 5%;
+}
+
+.new2 {
+    width: 100%;
+    padding-left: 5%;
+}
+
+.container new {
+    width: 100%;
+    height: auto;
+    background: #0077bbf;
+    display: flex;
+}
+
+
+.boxp {
+    width: 20%;
+    height: 300px;
+    background: orangered;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-display: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.boxq {
+    width: 20%;
+    height: 300px;
+    background: rgb(74, 155, 206);
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-display: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.boxr {
+    width: 20%;
+    height: 300px;
+    background: rgb(211, 88, 211);
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-display: center;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
