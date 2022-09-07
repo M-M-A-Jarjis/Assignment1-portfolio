@@ -1,6 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .h1 {
@@ -25,14 +29,14 @@ section {
 }
 
 .top-banner {
-    background-image: url(images/donation0.jpg);
+    background-image: url(images/donation4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: centre centre;
     top: 100px;
     height: 100vh;
-    position: centre;
-    color: red;
+    position: center;
+    color: rgb(247, 241, 241);
 }
 
 .top-banner::after {
@@ -43,7 +47,7 @@ section {
     display: block;
     width: 100%;
     height: 100%;
-    background: rgb(18, 17, 15);
+    background: white;
     opacity: .7;
     z-index: -1;
 }
@@ -52,6 +56,16 @@ section {
     padding-top: 8%;
     font-size: 80px;
     color: #fff;
+}
+
+.Donate {
+    font-size: large;
+    color: rgb(117, 158, 224);
+}
+
+.plan {
+    font-size: large;
+    color: rgb(83, 213, 242);
 }
 
 .container {
@@ -63,7 +77,7 @@ section {
 
 .box {
     width: 20%;
-    height: 300px;
+    height: 150px;
     background: yellow;
     margin: 20px;
     box-sizing: border-box;
@@ -72,7 +86,7 @@ section {
 
 .box2 {
     width: 20%;
-    height: 300px;
+    height: 150px;
     background: red;
     margin: 20px;
     box-sizing: border-box;
@@ -100,35 +114,58 @@ section {
 .boxp {
     width: 20%;
     height: 300px;
-    background: orangered;
+    background: rgb(210, 118, 84);
     margin: 20px;
     box-sizing: border-box;
-    font-size: 25px;
+    font-size: 35px;
     font-display: center;
     box-sizing: border-box;
     border-radius: 10px;
+}
+
+.food {
+    font-size: small;
+    color: rgb(60, 193, 193);
 }
 
 .boxq {
     width: 20%;
     height: 300px;
-    background: rgb(74, 155, 206);
+    background: rgb(200, 159, 159);
     margin: 20px;
     box-sizing: border-box;
-    font-size: 22px;
+    font-size: 35px;
     font-display: center;
     box-sizing: border-box;
     border-radius: 10px;
 }
 
+.shelter {
+    font-size: small;
+    color: rgb(47, 104, 145);
+}
+
 .boxr {
     width: 20%;
     height: 300px;
-    background: rgb(211, 88, 211);
+    background: rgb(220, 169, 220);
     margin: 20px;
     box-sizing: border-box;
-    font-size: 22px;
+    font-size: 35px;
     font-display: center;
     box-sizing: border-box;
     border-radius: 10px;
+}
+
+.Education {
+    font-size: small;
+    color: rgb(209, 240, 34);
+}
+
+
+.footer-content {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(220, 130, 130);
 }
